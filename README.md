@@ -11,9 +11,15 @@ Para o desenvolvimento do dataset foi utilizado o repositório [shapes](https://
 Neste projeto foi utilizado principalmente a biblioteca Ultralytics para realizar o treinamento e inferências utilizando a arquitetura do YOLOv8 e a ferramenta de análise de dados FiftyOne para analisar os resultados dos modelos treinados utilizando diversas qualidades de anotações.
 
 
-[Vídeo explicando o experimento e os resultados (Em breve)]()
+[Vídeo explicando o experimento e os resultados](https://youtu.be/BEJcHYciIjo)
 
 Todos resultados obtidos estão no arquivo "all_results.csv" e algumas das conclusões tiradas neste projeto estão dentro do Jupyter Notebook "results_analyzer", assim como no vídeo mencionado acima.
+
+**OBS:** Algumas pastas possuem links para outros repositórios, então recomenda-se clonar este repositório utilizando o parâmetro “--recurse-submodules”:
+
+```
+git clone --recurse-submodules git@github.com:ProgramadorArtificial/teste_anotacao_detectacao_objeto.git
+```
 
 ## Pré-requisitos
 Caso deseje utilizar o Anaconda, disponibilizei meu environment chamado "yolov8" e pode ser instalado usando o comando:
